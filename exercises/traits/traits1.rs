@@ -13,7 +13,7 @@ trait AppendBar {
     fn append_bar(self) -> Self;
 }
 
-impl AppendBar for String {
+impl AppendBar for String  {
     // TODO: Implement `AppendBar` for type `String`.
 }
 
