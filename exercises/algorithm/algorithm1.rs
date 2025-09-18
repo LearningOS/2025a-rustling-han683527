@@ -128,6 +128,7 @@ mod tests {
         assert_eq!(3, list_str.length);
     }
 
+    //
     #[test]
     fn test_merge_linked_list_1() {
 		let mut list_a = LinkedList::<i32>::new();
@@ -149,6 +150,8 @@ mod tests {
 			assert_eq!(target_vec[i],*list_c.get(i as i32).unwrap());
 		}
 	}
+    
+    //
 	#[test]
 	fn test_merge_linked_list_2() {
 		let mut list_a = LinkedList::<i32>::new();
